@@ -52,7 +52,7 @@ pip install torch torchvision opencv-python pandas numpy matplotlib tqdm kaggle
 kaggle datasets download -d risangbaskoro/wlasl-processed
 unzip wlasl-processed.zip -d data/
 ```
-4. Open `wlasl_i3d_training.ipynb` to train the model
+4. Open `--` to train the model
 
 ## Model
 
@@ -69,14 +69,7 @@ The I3D model is an Inflated 3D ConvNet based on the Inception architecture. It'
 
 ## Results
 
-The I3D model achieves state-of-the-art results on the WLASL dataset:
-
-| Subset | Top-1 Accuracy | Top-5 Accuracy |
-|--------|----------------|----------------|
-| WLASL100 | 74.6% | 91.2% |
-| WLASL300 | 62.2% | 84.6% |
-| WLASL1000 | 47.3% | 76.8% |
-| WLASL2000 | 41.3% | 70.1% |
+--
 
 ## Acknowledgments
 
